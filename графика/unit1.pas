@@ -58,7 +58,6 @@ PodFunc[a].Text:=PodFunc[a].Text+s[i];
 inc(i);
 until s[i]='+';
 delete(s,1,i);
-showmessage(s);
 end;
 PodFunc[b]:=TEdit.Create(Form1);
 PodFunc[b].parent:=Form1;

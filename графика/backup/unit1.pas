@@ -64,7 +64,7 @@ PodFunc[b]:=TEdit.Create(Form1);
 PodFunc[b].parent:=Form1;
 PodFunc[b].Left:=800;
 PodFunc[b].Top:=50*b;
-PodFunc[a].Text:=s;
+PodFunc[b].Text:=s;
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
