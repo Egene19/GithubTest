@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 202
+  Height = 700
+  Top = 26
+  Width = 700
+  Caption = 'Form1'
+  ClientHeight = 700
+  ClientWidth = 700
+  LCLVersion = '1.8.4.0'
+  WindowState = wsMaximized
+  object Pole: TPaintBox
+    Left = 0
+    Height = 600
+    Top = 0
+    Width = 700
+  end
+  object Edit1: TEdit
+    Left = 176
+    Height = 23
+    Top = 645
+    Width = 360
+    OnDblClick = Edit1DblClick
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 536
+    Height = 23
+    Top = 645
+    Width = 118
+    Caption = 'Построить'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 28
+    Top = 640
+    Width = 176
+    Caption = 'Задайте уравнение'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+end
